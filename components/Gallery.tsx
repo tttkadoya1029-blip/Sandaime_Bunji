@@ -38,7 +38,7 @@ export default function Gallery() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1.5 auto-rows-[200px]">
           {galleryImages.map((img, i) => (
             <div
-              key={img.src}
+              key={`${img.src}-${i}`}
               className={`relative overflow-hidden group ${
                 i === 0 ? "col-span-2 row-span-2" : ""
               }`}

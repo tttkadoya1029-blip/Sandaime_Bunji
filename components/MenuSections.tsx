@@ -128,26 +128,36 @@ const beefSkewersItems: MenuItem[] = [
   },
 ];
 
-const yakitoriItems: MenuItem[] = [
+const sashimiItems: MenuItem[] = [
   {
-    jp: "もも肉2本",
-    en: "Yakitori Momo, Thigh Meat 2ps",
-    price: "$6.00",
+    jp: "ぶりの胡麻和えの刺身",
+    en: "Yellowtail & Roasted Sesame Sashimi",
+    price: "$15.90",
   },
   {
-    jp: "もも肉2本 ねぎ塩かけ",
-    en: "Yakitori Momo Negishio 2ps",
-    price: "$6.50",
+    jp: "藁焼きのかつお",
+    en: "Live Straw Fire Seared Bonito",
+    price: "$24.80",
   },
   {
-    jp: "はつ2本",
-    en: "Yakitori Heart 2ps",
-    price: "$6.00",
+    jp: "大トロまぐろ刺身 5枚",
+    en: "Otoro Tuna Sashimi 5pcs",
+    price: "$18.90",
   },
   {
-    jp: "手羽先2本",
-    en: "Yakitori Tebasaki Wings 2ps",
-    price: "$6.90",
+    jp: "ぶりのお刺身 3枚",
+    en: "Yellowtail Sashimi 3pcs",
+    price: "$8.90",
+  },
+  {
+    jp: "サーモンの刺身 3枚",
+    en: "Salmon Sashimi 3pcs",
+    price: "$9.90",
+  },
+  {
+    jp: "いくら",
+    en: "Ikura",
+    price: "$12.90",
   },
 ];
 
@@ -192,12 +202,12 @@ export default function MenuSections() {
       />
 
       <MenuSection
-        id="yakitori"
-        tag="Grilled Chicken"
-        title="Yakitori · 焼き鳥"
+        id="sashimi"
+        tag="Sashimi"
+        title="Sashimi · 刺身"
         image="/images/warayaki.jpg"
-        imageAlt="Yakitori"
-        items={yakitoriItems}
+        imageAlt="Sashimi"
+        items={sashimiItems}
       />
     </section>
   );

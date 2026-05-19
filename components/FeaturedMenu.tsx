@@ -20,7 +20,7 @@ const features = [
     subtitle: "ローストビーフ丼",
     description:
       "Premium roast beef over Japanese rice, topped with house special sauce.",
-    image: "/images/seafood-don.webp",
+    image: "/images/roast-beef-don.jpg",
   },
   {
     title: "Beef Skewers",
@@ -30,18 +30,18 @@ const features = [
     image: "/images/kushi-yaki.webp",
   },
   {
-    title: "Yakitori",
-    subtitle: "焼き鳥",
+    title: "Bonito Tataki",
+    subtitle: "カツオのたたき",
     description:
-      "Classic Japanese grilled chicken skewers — thigh, heart, wings, and more.",
+      "Lightly seared bonito with a smoky aroma, served rare inside with fresh onion, garlic, and ponzu sauce.",
     image: "/images/warayaki.jpg",
   },
   {
-    title: "Sake & Highballs",
-    subtitle: "日本酒・ハイボール",
+    title: "Sukiyaki",
+    subtitle: "すき焼き",
     description:
-      "Curated Japanese sake selection and premium highballs to complement every dish.",
-    image: "/images/interior-01.webp",
+      "Traditional Japanese hot pot with thinly sliced beef, tofu, and vegetables simmered in a sweet soy-based broth.",
+    image: "/images/sukiyaki.webp",
   },
 ];
 
